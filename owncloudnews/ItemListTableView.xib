@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ItemListTableViewController">
+            <connections>
+                <outlet property="itemArrayController" destination="enM-wo-oBh" id="ipo-jM-WJp"/>
+                <outlet property="table" destination="kXz-5O-Des" id="2Cg-Ny-5nd"/>
+                <outlet property="tableView" destination="kXz-5O-Des" id="FqX-oQ-05a"/>
+                <outlet property="view" destination="GXK-RQ-M6M" id="oa6-ec-HUy"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <userDefaultsController representsSharedInstance="YES" id="Xcd-av-34U"/>
+        <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="GXK-RQ-M6M">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <clipView key="contentView" id="aeQ-5d-F2c">
+                <rect key="frame" x="1" y="17" width="238" height="117"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="M5f-d3-yCl" id="kXz-5O-Des">
+                        <rect key="frame" x="0.0" y="0.0" width="238" height="117"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <size key="intercellSpacing" width="3" height="2"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                        <tableColumns>
+                            <tableColumn width="116" minWidth="40" maxWidth="1000" id="wf1-br-KFi">
+                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Author">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableHeaderCell>
+                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="rqf-m7-Fs0">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                <connections>
+                                    <binding destination="enM-wo-oBh" name="value" keyPath="arrangedObjects.author" id="0JR-3c-4hX"/>
+                                </connections>
+                            </tableColumn>
+                            <tableColumn width="116" minWidth="40" maxWidth="1000" id="RYb-Sn-pIi">
+                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Title">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableHeaderCell>
+                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="tZ1-0V-Jop">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                <connections>
+                                    <binding destination="enM-wo-oBh" name="value" keyPath="arrangedObjects.title" id="d6Q-08-Jcp"/>
+                                </connections>
+                            </tableColumn>
+                        </tableColumns>
+                        <connections>
+                            <binding destination="enM-wo-oBh" name="content" keyPath="arrangedObjects" id="iZN-6N-zj1"/>
+                            <outlet property="delegate" destination="-2" id="2O8-DQ-hK1"/>
+                        </connections>
+                    </tableView>
+                </subviews>
+                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+            </clipView>
+            <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="LFQ-wY-q0M">
+                <rect key="frame" x="1" y="119" width="223" height="15"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </scroller>
+            <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="Vbt-BN-bQ8">
+                <rect key="frame" x="224" y="17" width="15" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </scroller>
+            <tableHeaderView key="headerView" id="M5f-d3-yCl">
+                <rect key="frame" x="0.0" y="0.0" width="238" height="17"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </tableHeaderView>
+        </scrollView>
+        <arrayController id="enM-wo-oBh" userLabel="News Item Controller">
+            <declaredKeys>
+                <string>pubDate</string>
+                <string>title</string>
+                <string>author</string>
+            </declaredKeys>
+        </arrayController>
+    </objects>
+</document>

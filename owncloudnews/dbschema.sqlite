@@ -1,0 +1,5 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS folders (id INTEGER PRIMARY KEY, folderName TEXT);
+CREATE TABLE IF NOT EXISTS feeds (id INTEGER PRIMARY KEY, unreadCount NUMERIC, folderId NUMERIC, url TEXT, title TEXT, faviconLink TEXT, link TEXT);
+CREATE TABLE IF NOT EXISTS newsitems (id INTEGER PRIMARY KEY, feedId NUMERIC, guid TEXT, guidHash TEXT, url TEXT, title TEXT, author TEXT, pubDate NUMERIC, body TEXT, enclosureMime TEXT, unread NUMERIC, starred NUMERIC);
+END TRANSACTION;
