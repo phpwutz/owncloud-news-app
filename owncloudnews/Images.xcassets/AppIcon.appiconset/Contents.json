@@ -19,8 +19,9 @@
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "32x32",
+      "idiom" : "mac",
+      "filename" : "owncloudnews-icon-64.png",
       "scale" : "2x"
     },
     {
@@ -56,7 +57,7 @@
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "owncloudnews-icon-512x2.png",
+      "filename" : "owncloudnews-icon-1024.png",
       "scale" : "2x"
     }
   ],
