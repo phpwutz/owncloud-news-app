@@ -10,6 +10,7 @@
 #import "NewsItem.h"
 #import "NewsFeed.h"
 #import "NewsAPI12.h"
+#import "ServiceFactoryImpl.h"
 #import "ArticleViewController.h"
 #import "ItemListTableViewController.h"
 #import "FeedOutlineViewController.h"
@@ -19,21 +20,22 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
- 
+    [self resetUserDefaults];
+    _preferencesWindowController = [[PreferencesWindowController alloc] init];
+    
+    if(![[[ServiceFactoryImpl getInstance ]getOwncloudSyncService] syncDatabaseWithApi] == YES){
+        [self showPreferences:self];
+    }
+    
     ArticleViewController* articleViewController = [[ArticleViewController alloc] init];
     ItemListTableViewController* itemlistTableViewController = [[ItemListTableViewController alloc] initWithArticleViewController: articleViewController];
     
     self.feedOutlineViewController = [[FeedOutlineViewController alloc] initWithItemListTableViewController: itemlistTableViewController];
     
-    
     [_splitView addSubview: [self.feedOutlineViewController view]];
     [_splitView addSubview:[itemlistTableViewController view]];
     [_splitView addSubview:[articleViewController view]];
     
-
-
-
-    _preferencesWindowController = [[PreferencesWindowController alloc] init];
 //
 //	self.api = [[NewsAPI12 alloc] initWithProtocol:protocol andDomain:domain andUsername:username andPassword:password];
 //	
@@ -48,5 +50,19 @@
 }
 - (IBAction) showPreferences:(id)sender{
     [_preferencesWindowController showPreferences];
+}
+
+- (IBAction)reloadFeeds:(id) sender{
+    [[[ServiceFactoryImpl getInstance ]getOwncloudSyncService] syncDatabaseWithApi];
+}
+
+- (void) resetUserDefaults{
+    NSUserDefaultsController* userDefaults = [NSUserDefaultsController sharedUserDefaultsController];
+    [[userDefaults defaults] setValue:@"" forKey:@"owncloudProtocol"];
+    [[userDefaults defaults] setValue:@"" forKey:@"owncloudBaseUrl"];
+    [[userDefaults defaults] setValue:@"" forKey:@"owncloudUsername"];
+    [[userDefaults defaults] setValue:@"" forKey:@"owncloudPassword"];
+    [[userDefaults defaults] setValue: [NSNumber numberWithInteger: 0] forKey:@"lastUpdateSync"];
+    
 }
 @end

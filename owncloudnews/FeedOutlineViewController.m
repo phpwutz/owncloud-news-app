@@ -20,6 +20,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         newsFeedService = [[ServiceFactoryImpl getInstance] getNewsFeedService];
+        [[[ServiceFactoryImpl getInstance] getDatabaseService] addObserver:self];
     }
     return self;
 }
@@ -38,11 +39,19 @@
 
 - (void) awakeFromNib{
     [_feedsOutline setDataSource: _treeController];
+    [self databaseChanged];
+}
+
+- (void) databaseChanged{
+    NSArray* data = [newsFeedService getAllFeeds];
+    [self.treeController setContent:nil];
+    for (int i = 0; i < [data count]; i++) {
+        [self.treeController addObject: [data objectAtIndex: i]];
+    }
 }
 
 - (void)didLoadView {
-    NSLog(@"loaded outlineview");
-    [self initTreeController];
+    
 }
 
 
@@ -62,14 +71,6 @@
         [_itemListTableViewController loadArticlesForFeed: feed];
     }
 
-}
-
-- (void) initTreeController{
-    
-    NSArray* data = [newsFeedService getAllFeeds];
-    for (int i = 0; i < [data count]; i++) {
-        [self.treeController addObject: [data objectAtIndex: i]];
-    }
 }
 
 - (void)outlineView:(NSOutlineView *)outlineView

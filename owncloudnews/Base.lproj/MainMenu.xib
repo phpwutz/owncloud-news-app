@@ -150,7 +150,11 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Action" id="Pfe-PW-Qgb">
                         <items>
-                            <menuItem title="Refresh Feeds" keyEquivalent="r" id="dbF-bX-o2l"/>
+                            <menuItem title="Refresh Feeds" keyEquivalent="r" id="dbF-bX-o2l">
+                                <connections>
+                                    <action selector="reloadFeeds:" target="494" id="8fT-og-OpF"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                 </menuItem>

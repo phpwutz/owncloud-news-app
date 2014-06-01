@@ -11,9 +11,6 @@
 
 @interface NewsFeedServiceImpl : NSObject
 
-@property (strong) FMDatabase* db;
-
-- (id) initWithDb: (FMDatabase*)database;
 - (NSArray*) getAllFeeds;
 
 @end

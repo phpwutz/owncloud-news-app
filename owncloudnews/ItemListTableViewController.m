@@ -36,7 +36,7 @@
 }
 
 - (void) loadArticlesForFeed: (NewsFeed*) feed{
-    NSLog(@"loading feed with id %u ", [feed identity]);
+    //NSLog(@"loading feed with id %u ", [feed identity]);
     [_itemArrayController setContent: [newsArticleService getArticlesForFeed:feed]];
     
     if([[_itemArrayController arrangedObjects] count] > 0){
@@ -58,7 +58,7 @@
 }
 
 - (void)tableViewSelectionDidChange:(NSNotification *)aNotification{
-    NSLog(@"table view selection did change");
+    //NSLog(@"table view selection did change");
     NSInteger rowIndex = [tableView selectedRow];
     
     if(rowIndex == -1){

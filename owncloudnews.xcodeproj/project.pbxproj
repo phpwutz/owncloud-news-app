@@ -24,6 +24,9 @@
 		514E1CED1938DEDB002398E8 /* OwncloudSyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CEC1938DEDB002398E8 /* OwncloudSyncService.m */; };
 		514E1CF01938EC4B002398E8 /* NewsArticleServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CEF1938EC4B002398E8 /* NewsArticleServiceImpl.m */; };
 		514E1CF41939FADD002398E8 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CF31939FADD002398E8 /* ImageAndTextCell.m */; };
+		51577029193B2FF9009D8156 /* DatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 51577028193B2FF9009D8156 /* DatabaseService.m */; };
+		5157702D193B4DAA009D8156 /* Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5157702C193B4DAA009D8156 /* Observable.m */; };
+		51577030193B5287009D8156 /* NSInvocation+Constructors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5157702F193B5287009D8156 /* NSInvocation+Constructors.m */; };
 		5198071A189556A40030C1DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51980719189556A40030C1DB /* Cocoa.framework */; };
 		51980724189556A40030C1DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51980722189556A40030C1DB /* InfoPlist.strings */; };
 		51980726189556A40030C1DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51980725189556A40030C1DB /* main.m */; };
@@ -91,8 +94,15 @@
 		514E1CEF1938EC4B002398E8 /* NewsArticleServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsArticleServiceImpl.m; sourceTree = "<group>"; };
 		514E1CF21939FADD002398E8 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageAndTextCell.h; path = owncloudnews/ImageAndTextCell.h; sourceTree = "<group>"; };
 		514E1CF31939FADD002398E8 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageAndTextCell.m; path = owncloudnews/ImageAndTextCell.m; sourceTree = "<group>"; };
+		51577027193B2FF9009D8156 /* DatabaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseService.h; sourceTree = "<group>"; };
+		51577028193B2FF9009D8156 /* DatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseService.m; sourceTree = "<group>"; };
+		5157702B193B4DAA009D8156 /* Observable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Observable.h; path = owncloudnews/Observable.h; sourceTree = "<group>"; };
+		5157702C193B4DAA009D8156 /* Observable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Observable.m; path = owncloudnews/Observable.m; sourceTree = "<group>"; };
+		5157702E193B5287009D8156 /* NSInvocation+Constructors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+Constructors.h"; path = "owncloudnews/NSInvocation+Constructors.h"; sourceTree = "<group>"; };
+		5157702F193B5287009D8156 /* NSInvocation+Constructors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+Constructors.m"; path = "owncloudnews/NSInvocation+Constructors.m"; sourceTree = "<group>"; };
+		51577031193B52F4009D8156 /* DatabaseObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseObserver.h; sourceTree = "<group>"; };
 		516222B91897022500A2E740 /* ArticleTemplate.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ArticleTemplate.html; sourceTree = "<group>"; };
-		51980716189556A40030C1DB /* owncloudnews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = owncloudnews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51980716189556A40030C1DB /* OwncloudNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwncloudNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51980719189556A40030C1DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5198071C189556A40030C1DB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5198071D189556A40030C1DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -217,6 +227,9 @@
 				514E1CEC1938DEDB002398E8 /* OwncloudSyncService.m */,
 				514E1CEE1938EC4B002398E8 /* NewsArticleServiceImpl.h */,
 				514E1CEF1938EC4B002398E8 /* NewsArticleServiceImpl.m */,
+				51577027193B2FF9009D8156 /* DatabaseService.h */,
+				51577028193B2FF9009D8156 /* DatabaseService.m */,
+				51577031193B52F4009D8156 /* DatabaseObserver.h */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -224,11 +237,15 @@
 		514E1CF11939F88A002398E8 /* external */ = {
 			isa = PBXGroup;
 			children = (
+				5157702B193B4DAA009D8156 /* Observable.h */,
+				5157702C193B4DAA009D8156 /* Observable.m */,
 				514E1CF21939FADD002398E8 /* ImageAndTextCell.h */,
 				514E1CF31939FADD002398E8 /* ImageAndTextCell.m */,
 				51D30541189876B900AFC772 /* fmdb */,
 				512983A31937451E008D6852 /* NSData+Base64.h */,
 				512983A41937451E008D6852 /* NSData+Base64.m */,
+				5157702E193B5287009D8156 /* NSInvocation+Constructors.h */,
+				5157702F193B5287009D8156 /* NSInvocation+Constructors.m */,
 			);
 			name = external;
 			sourceTree = "<group>";
@@ -247,7 +264,7 @@
 		51980717189556A40030C1DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51980716189556A40030C1DB /* owncloudnews.app */,
+				51980716189556A40030C1DB /* OwncloudNews.app */,
 				51980737189556A50030C1DB /* owncloudnewsTests.xctest */,
 			);
 			name = Products;
@@ -375,7 +392,7 @@
 			);
 			name = owncloudnews;
 			productName = owncloudnews;
-			productReference = 51980716189556A40030C1DB /* owncloudnews.app */;
+			productReference = 51980716189556A40030C1DB /* OwncloudNews.app */;
 			productType = "com.apple.product-type.application";
 		};
 		51980736189556A50030C1DB /* owncloudnewsTests */ = {
@@ -476,16 +493,19 @@
 				5198072D189556A40030C1DB /* AppDelegate.m in Sources */,
 				519E4A9A193A31C3005CDA40 /* GeneralPreferencesViewController.m in Sources */,
 				5144995919374F0D00B769C3 /* OcnViewController.m in Sources */,
+				51577030193B5287009D8156 /* NSInvocation+Constructors.m in Sources */,
 				514E1CED1938DEDB002398E8 /* OwncloudSyncService.m in Sources */,
 				510310351897C94200491EE7 /* NewsAPI12.m in Sources */,
 				5144995D1937565300B769C3 /* ItemListTableViewController.m in Sources */,
 				514E1CEA1937EEBF002398E8 /* ServiceFactoryImpl.m in Sources */,
 				51980726189556A40030C1DB /* main.m in Sources */,
+				5157702D193B4DAA009D8156 /* Observable.m in Sources */,
 				51D3054D189876B900AFC772 /* FMDatabase.m in Sources */,
 				510310381897C9E300491EE7 /* Folder.m in Sources */,
 				51D3054E189876B900AFC772 /* FMDatabaseAdditions.m in Sources */,
 				514E1CF41939FADD002398E8 /* ImageAndTextCell.m in Sources */,
 				519E4AA4193A36D8005CDA40 /* PreferencesWindowController.m in Sources */,
+				51577029193B2FF9009D8156 /* DatabaseService.m in Sources */,
 				512983A51937451E008D6852 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,7 +646,7 @@
 				);
 				INFOPLIST_FILE = "owncloudnews/owncloudnews-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OwncloudNews;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -645,7 +665,7 @@
 				);
 				INFOPLIST_FILE = "owncloudnews/owncloudnews-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OwncloudNews;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

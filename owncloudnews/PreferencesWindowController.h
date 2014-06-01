@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "GeneralPreferencesViewController.h"
 
-@interface PreferencesWindowController : NSWindowController{
+@interface PreferencesWindowController : NSWindowController <NSWindowDelegate>{
     GeneralPreferencesViewController* prefViewC;
 }
 

@@ -11,13 +11,14 @@
 #import "NewsArticleServiceImpl.h"
 #import "OwncloudSyncService.h"
 #import "FMDatabase.h"
+#import "DatabaseService.h"
 
 @interface ServiceFactoryImpl : NSObject
 
-@property (strong) FMDatabase* db;
 + (ServiceFactoryImpl* ) getInstance;
 - (OwncloudSyncService* ) getOwncloudSyncService;
 - (NewsFeedServiceImpl*) getNewsFeedService;
 - (NewsArticleServiceImpl*) getNewsArticleService;
+- (DatabaseService*) getDatabaseService;
 
 @end

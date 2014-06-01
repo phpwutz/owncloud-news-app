@@ -9,8 +9,9 @@
 #import "OcnViewController.h"
 #import "ServiceFactoryImpl.h"
 #import "ItemListTableViewController.h"
+#import "DatabaseObserver.h"
 
-@interface FeedOutlineViewController : OcnViewController <NSOutlineViewDelegate>{
+@interface FeedOutlineViewController : OcnViewController <NSOutlineViewDelegate, DatabaseObserver>{
     NewsFeedServiceImpl* newsFeedService;
 }
 
@@ -22,4 +23,7 @@
 
 - (void)outlineView:(NSOutlineView *)outlineView willDisplayCell:(id)cell forTableColumn:(NSTableColumn *)tableColumn item:(id)item;
 - (void)outlineViewSelectionDidChange:(NSNotification *) aNotification;
+
+// comply to DatabaseObserver
+- (void) databaseChanged;
 @end

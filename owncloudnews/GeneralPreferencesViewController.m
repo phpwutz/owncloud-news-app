@@ -8,6 +8,7 @@
 
 #import "GeneralPreferencesViewController.h"
 #import "NewsAPI12.h"
+#import "ServiceFactoryImpl.h"
 
 @implementation GeneralPreferencesViewController
 
@@ -24,7 +25,6 @@
     return [[GeneralPreferencesViewController alloc ]initWithNibName:@"GeneralPreferences" bundle:nil];
 }
 
-
 - (IBAction)checkSettings:(id)sender{
     [self.lblCheckResult setStringValue: @"checking..."];
     [self.lblCheckResult needsDisplay];
@@ -37,10 +37,11 @@
                                  andBaseUrl:baseUrl
                                 andUsername:username
                                 andPassword:password]){
-        [self.lblCheckResult setStringValue:@"Could not connect to the owncloud news API. Your settings were not saved. Please enter correct settings."];
-        [[NSUserDefaultsController sharedUserDefaultsController] revertToInitialValues:self];
+        [self.lblCheckResult setStringValue:@"Could not connect to the owncloud news API. Please enter correct settings."];
+        //[[NSUserDefaultsController sharedUserDefaultsController] revertToInitialValues:self];
     }else{
-        [self.lblCheckResult setStringValue:@"Your settings seem OK. I saved them."];
+        [self.lblCheckResult setStringValue:@"Your settings seem OK. You can close this window now."];
+        [[[ServiceFactoryImpl getInstance ]getOwncloudSyncService] syncDatabaseWithApi];
         NSUserDefaultsController *controller = [NSUserDefaultsController sharedUserDefaultsController];
         [controller save:self];
     }

@@ -9,29 +9,25 @@
 #import "NewsFeedServiceImpl.h"
 #import "NewsFeed.h"
 #import "Folder.h"
+#import "ServiceFactoryImpl.h"
 
 @implementation NewsFeedServiceImpl
 
-- (id) initWithDb: (FMDatabase*)database{
-    self = [super init];
-    if (self) {
-        self.db = database;
-    }
-    return self;
-}
 - (NSArray*) getAllFeeds{
 
     NSMutableArray* root = [[NSMutableArray alloc] init];
     NSMutableArray* output = [[NSMutableArray alloc] init];
     
-	FMResultSet* res = [self.db executeQuery:@"SELECT * FROM feeds ORDER BY unreadCount DESC"];
+    DatabaseService* db = [[ServiceFactoryImpl getInstance] getDatabaseService];
+    
+	FMResultSet* res = [db executeQuery:@"SELECT * FROM feeds ORDER BY unreadCount DESC"];
     NSMutableArray* newArr = [[NSMutableArray alloc] init];
 	while([res next])
 	{
 		[newArr addObject: [[NewsFeed alloc] initFromDbRow: res]];
 	}
     
-	FMResultSet* res2 = [self.db executeQuery:@"SELECT * FROM folders"];
+	FMResultSet* res2 = [db executeQuery:@"SELECT * FROM folders"];
 	while([res2 next])
 	{
         Folder* folder = [[Folder alloc] initFromDbRow: res2];

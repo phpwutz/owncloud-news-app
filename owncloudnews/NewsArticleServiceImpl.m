@@ -8,20 +8,13 @@
 
 #import "NewsArticleServiceImpl.h"
 #import "NewsItem.h"
+#import "ServiceFactoryImpl.h"
 
 @implementation NewsArticleServiceImpl
 
-- (id) initWithDb: (FMDatabase*)database{
-    self = [super init];
-    if (self) {
-        db = database;
-    }
-    return self;
-}
-
 - (NSArray*) getArticlesForFeed: (NewsFeed*) feed{
     NSMutableArray* output = [[NSMutableArray alloc] init];
-    
+    DatabaseService* db = [[ServiceFactoryImpl getInstance] getDatabaseService];
     FMResultSet* res = [db executeQuery:@"SELECT * FROM newsitems WHERE feedId = ? ORDER BY pubDate DESC", [NSNumber numberWithInt:feed.identity]];
     
     while([res next])
@@ -34,6 +27,7 @@
 }
 
 - (NewsItem*) getArticleById: (int) articleId{
+    DatabaseService* db = [[ServiceFactoryImpl getInstance] getDatabaseService];
     FMResultSet* res = [db executeQuery:@"SELECT * FROM newsitems WHERE id = ? ORDER BY pubDate DESC", articleId];
     [res next];
     if(res){
@@ -43,6 +37,7 @@
 }
 
 - (void) markArticleRead: (NewsItem*) article{
+    DatabaseService* db = [[ServiceFactoryImpl getInstance] getDatabaseService];
     [db executeUpdate: @"UPDATE newsitems SET unread = 0 WHERE id = ?", [article identity]];
 }
 @end

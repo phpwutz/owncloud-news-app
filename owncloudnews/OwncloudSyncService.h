@@ -11,11 +11,9 @@
 #import "NewsAPI12.h"
 
 @interface OwncloudSyncService : NSObject{
-    FMDatabase* db;
     NewsAPI12* api;
 }
 
-- (id) initWithDb: (FMDatabase* )db;
-- (void) syncDatabaseWithApi;
+- (BOOL) syncDatabaseWithApi;
 
 @end

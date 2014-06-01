@@ -11,11 +11,8 @@
 #import "NewsFeed.h"
 #import "NewsItem.h"
 
-@interface NewsArticleServiceImpl : NSObject{
-    FMDatabase* db;
-}
+@interface NewsArticleServiceImpl : NSObject
 
-- (id) initWithDb: (FMDatabase*)database;
 - (NSArray*) getArticlesForFeed: (NewsFeed* ) feed;
 - (NewsItem*) getArticleById: (int) articleId;
 - (void) markArticleRead: (NewsItem*) article;

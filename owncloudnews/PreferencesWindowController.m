@@ -8,6 +8,7 @@
 
 #import "PreferencesWindowController.h"
 #import <AppKit/AppKit.h>
+#import "ServiceFactoryImpl.h"
 
 @implementation PreferencesWindowController
 
@@ -27,8 +28,10 @@
     return self;
 }
 
-- (void)windowDidLoad{
+- (void) windowWillClose: (NSNotification*)notification{
+    //;
 }
+
 
 - (void) showPreferences{
 

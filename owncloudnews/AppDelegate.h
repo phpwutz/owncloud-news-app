@@ -23,7 +23,7 @@
 @property (assign) IBOutlet NSWindow *window;
 
 - (IBAction) showPreferences:(id)sender;
-//- (IBAction)reloadFeeds:(id) sender;
+- (IBAction)reloadFeeds:(id) sender;
 //- (IBAction)increaseFontSize:(NSMenuItem *)sender;
 //- (IBAction)decreaseFontSize:(NSMenuItem *)sender;
 
