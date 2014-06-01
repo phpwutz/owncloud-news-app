@@ -21,24 +21,24 @@
         </treeController>
         <userDefaultsController representsSharedInstance="YES" id="Mhw-bv-2tM"/>
         <customView id="1HN-dG-5Fx">
-            <rect key="frame" x="0.0" y="0.0" width="554" height="554"/>
+            <rect key="frame" x="0.0" y="0.0" width="566" height="554"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <scrollView focusRingType="none" borderType="none" autohidesScrollers="YES" horizontalLineScroll="25" horizontalPageScroll="10" verticalLineScroll="25" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poh-0R-OPw">
-                    <rect key="frame" x="20" y="0.0" width="534" height="529"/>
+                <scrollView focusRingType="none" misplaced="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="25" horizontalPageScroll="10" verticalLineScroll="25" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poh-0R-OPw">
+                    <rect key="frame" x="20" y="0.0" width="546" height="529"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <clipView key="contentView" focusRingType="none" id="8QF-U7-W0R">
-                        <rect key="frame" x="0.0" y="0.0" width="534" height="529"/>
+                    <clipView key="contentView" focusRingType="none" misplaced="YES" id="8QF-U7-W0R">
+                        <rect key="frame" x="0.0" y="0.0" width="546" height="529"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <outlineView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="firstColumnOnly" multipleSelection="NO" autosaveColumns="NO" indentationPerLevel="16" autosaveExpandedItems="YES" outlineTableColumn="sWB-Vp-nNd" id="6dO-BM-kQs">
-                                <rect key="frame" x="0.0" y="0.0" width="534" height="529"/>
+                                <rect key="frame" x="0.0" y="0.0" width="546" height="529"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <size key="intercellSpacing" width="3" height="8"/>
                                 <color key="backgroundColor" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                 <tableColumns>
-                                    <tableColumn editable="NO" width="478" minWidth="16" maxWidth="1000" id="sWB-Vp-nNd">
+                                    <tableColumn editable="NO" width="471" minWidth="16" maxWidth="1000" id="sWB-Vp-nNd">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="feedTitle">
                                             <font key="font" metaFont="smallSystem"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -70,6 +70,19 @@
                                             <binding destination="Axt-dw-rla" name="value" keyPath="arrangedObjects.unreadCount" id="6is-Jp-rXh"/>
                                         </connections>
                                     </tableColumn>
+                                    <tableColumn editable="NO" width="10" minWidth="10" maxWidth="10" id="oZD-4S-Qoo">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="space">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableHeaderCell>
+                                        <textFieldCell key="dataCell" lineBreakMode="truncatingTail" enabled="NO" allowsUndo="NO" alignment="center" title="Text Cell" usesSingleLineMode="YES" id="5gp-Ia-Taw">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                    </tableColumn>
                                 </tableColumns>
                                 <connections>
                                     <outlet property="delegate" destination="-2" id="zpF-tK-GGV"/>
@@ -87,7 +100,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
                 </scrollView>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YbN-xm-gE0">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YbN-xm-gE0">
                     <rect key="frame" x="18" y="537" width="77" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Your Feeds:" id="qx9-qi-DeR">
