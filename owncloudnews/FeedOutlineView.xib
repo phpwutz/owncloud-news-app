@@ -24,21 +24,21 @@
             <rect key="frame" x="0.0" y="0.0" width="566" height="554"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <scrollView focusRingType="none" misplaced="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="25" horizontalPageScroll="10" verticalLineScroll="25" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poh-0R-OPw">
-                    <rect key="frame" x="20" y="0.0" width="546" height="529"/>
+                <scrollView focusRingType="none" borderType="none" autohidesScrollers="YES" horizontalLineScroll="25" horizontalPageScroll="10" verticalLineScroll="25" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poh-0R-OPw">
+                    <rect key="frame" x="20" y="0.0" width="546" height="526"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <clipView key="contentView" focusRingType="none" misplaced="YES" id="8QF-U7-W0R">
-                        <rect key="frame" x="0.0" y="0.0" width="546" height="529"/>
+                    <clipView key="contentView" focusRingType="none" id="8QF-U7-W0R">
+                        <rect key="frame" x="0.0" y="0.0" width="546" height="526"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <outlineView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="firstColumnOnly" multipleSelection="NO" autosaveColumns="NO" indentationPerLevel="16" autosaveExpandedItems="YES" outlineTableColumn="sWB-Vp-nNd" id="6dO-BM-kQs">
-                                <rect key="frame" x="0.0" y="0.0" width="546" height="529"/>
+                                <rect key="frame" x="0.0" y="0.0" width="546" height="526"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <size key="intercellSpacing" width="3" height="8"/>
                                 <color key="backgroundColor" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                 <tableColumns>
-                                    <tableColumn editable="NO" width="471" minWidth="16" maxWidth="1000" id="sWB-Vp-nNd">
+                                    <tableColumn editable="NO" width="477" minWidth="16" maxWidth="1000" id="sWB-Vp-nNd">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="feedTitle">
                                             <font key="font" metaFont="smallSystem"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -100,8 +100,8 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
                 </scrollView>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YbN-xm-gE0">
-                    <rect key="frame" x="18" y="537" width="77" height="17"/>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YbN-xm-gE0">
+                    <rect key="frame" x="18" y="534" width="77" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Your Feeds:" id="qx9-qi-DeR">
                         <font key="font" size="13" name="HelveticaNeue-Bold"/>

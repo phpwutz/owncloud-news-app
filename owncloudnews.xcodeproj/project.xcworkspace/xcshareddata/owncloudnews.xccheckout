@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C41C3C49-5D55-4037-9D1A-5CFE6E7FD2BD</string>
+	<string>9709F8F0-F306-4B96-8507-55ACB10D612A</string>
 	<key>IDESourceControlProjectName</key>
 	<string>owncloudnews</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>448AE717-2AE6-4D36-91EA-2DBD9206B788</key>
-		<string>ssh://83.218.188.93/owncloudnews.git</string>
+		<key>0BA59520-36FA-407D-A0B7-4E8CCE7588D4</key>
+		<string>ssh://github.com/phpwutz/owncloud-news-app.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>owncloudnews.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>448AE717-2AE6-4D36-91EA-2DBD9206B788</key>
+		<key>0BA59520-36FA-407D-A0B7-4E8CCE7588D4</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://83.218.188.93/owncloudnews.git</string>
+	<string>ssh://github.com/phpwutz/owncloud-news-app.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>448AE717-2AE6-4D36-91EA-2DBD9206B788</string>
+	<string>0BA59520-36FA-407D-A0B7-4E8CCE7588D4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>448AE717-2AE6-4D36-91EA-2DBD9206B788</string>
+			<string>0BA59520-36FA-407D-A0B7-4E8CCE7588D4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>owncloudnews</string>
 		</dict>
