@@ -217,6 +217,16 @@
                     <constraint firstAttribute="trailing" secondItem="YVI-Nh-QeE" secondAttribute="trailing" id="zRC-rw-Sdd"/>
                 </constraints>
             </view>
+            <toolbar key="toolbar" implicitIdentifier="FDE6C6F1-37BE-4E92-892B-D3CE42749B91" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="qaC-s6-kaM">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="14BFA40D-92E1-4F7F-A5EB-86470B6BB7F5" label="Preferences" paletteLabel="Preferences" tag="-1" image="NSPreferencesGeneral" id="ddd-BP-MaY"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="uti-Kh-YVt"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="HUO-Uk-tea"/>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="HUO-Uk-tea"/>
+                </defaultToolbarItems>
+            </toolbar>
         </window>
         <customObject id="494" customClass="AppDelegate">
             <connections>
@@ -228,4 +238,7 @@
         <customObject id="420" customClass="NSFontManager"/>
         <userDefaultsController representsSharedInstance="YES" id="K8C-rm-Tu2"/>
     </objects>
+    <resources>
+        <image name="NSPreferencesGeneral" width="32" height="32"/>
+    </resources>
 </document>

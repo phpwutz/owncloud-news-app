@@ -20,7 +20,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    [self resetUserDefaults];
+    //[self resetUserDefaults];
     _preferencesWindowController = [[PreferencesWindowController alloc] init];
     
     if(![[[ServiceFactoryImpl getInstance ]getOwncloudSyncService] syncDatabaseWithApi] == YES){
