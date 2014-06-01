@@ -7,6 +7,9 @@
 //
 
 #import "ArticleViewController.h"
+#import "DatabaseObserver.h"
+#import "NSInvocation+Constructors.h"
+#import "ServiceFactoryImpl.h"
 
 @implementation ArticleViewController
 
@@ -29,8 +32,16 @@
     
     NSString* templatedArticle = [[[
                                     contents stringByReplacingOccurrencesOfString:@"%content%" withString:article.body] stringByReplacingOccurrencesOfString:@"%title%" withString: article.title] stringByReplacingOccurrencesOfString:@"%article_link%" withString:article.url];
-    article.unread = NO;
+    //BOOL statusBefore = article.unread;
+    //article.unread = NO;
     [[[self webView] mainFrame] loadHTMLString:templatedArticle baseURL:nil];
+    
+//    if(statusBefore != article.unread){
+//        NSInvocation* inv = [NSInvocation
+//                             invocationWithProtocol:@protocol(DatabaseObserver)
+//                             selector:@selector(databaseChanged)];
+//        [[[ServiceFactoryImpl getInstance]getDatabaseService] notifyObservers:inv];
+//    }
 }
 
 - (void)webView:(WebView *)sender decidePolicyForNavigationAction:(NSDictionary *)actionInformation
