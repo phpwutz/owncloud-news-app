@@ -15,8 +15,8 @@
     _feeds = [[NSMutableArray alloc] init];
     return self;
 }
--(int) unreadCount{
-    int count = 0;
+-(NSInteger) unreadCount{
+    NSInteger count = 0;
     for(NewsFeed* feed in _feeds){
         count += feed.unreadCount;
     }

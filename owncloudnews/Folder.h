@@ -15,7 +15,7 @@
 @property (atomic) int identity;
 @property (strong, nonatomic) NSString *title;
 @property (strong, nonatomic) NSMutableArray* feeds;
-@property (atomic, getter = unreadCount, readonly) int unreadCount;
+@property (atomic, getter = unreadCount, readonly) NSInteger unreadCount;
 
 -(id) init;
 -(id) initFromDictionary: (NSDictionary* ) dictionary;
