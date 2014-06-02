@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="FeedOutlineViewController">
+        <customObject id="-2" userLabel="File's Owner" customClass="OCNFeedOutlineViewController">
             <connections>
                 <outlet property="feedsOutline" destination="6dO-BM-kQs" id="Use-mi-1kY"/>
                 <outlet property="treeController" destination="Axt-dw-rla" id="xxD-2v-72O"/>

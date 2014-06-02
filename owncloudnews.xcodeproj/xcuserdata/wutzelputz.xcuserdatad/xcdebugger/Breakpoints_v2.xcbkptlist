@@ -9,7 +9,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsItem.m"
+            filePath = "owncloudnews/OCNNewsItem.m"
             timestampString = "412701740.325885"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -25,55 +25,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
-            timestampString = "423254104.028631"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
-            landmarkName = "-getAllFeeds"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
-            timestampString = "423254104.028631"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "-getFolders"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
-            timestampString = "423254104.028631"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "-getFolders"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsItem.m"
+            filePath = "owncloudnews/OCNNewsItem.m"
             timestampString = "412870623.720444"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -137,7 +89,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsFeed.m"
+            filePath = "owncloudnews/OCNNewsFeed.m"
             timestampString = "413228249.530439"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -169,23 +121,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
-            timestampString = "423252830.605493"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "+checkSettingsWithProtocol:andBaseUrl:andUsername:andPassword:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "owncloudnews/ItemListTableViewController.m"
+            filePath = "owncloudnews/OCNItemListTableViewController.m"
             timestampString = "423161763.653346"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -201,7 +137,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423319418.006402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -217,7 +153,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423319418.006402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -233,7 +169,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423319531.255405"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -249,7 +185,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423319418.006402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -265,7 +201,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423317462.164294"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -281,7 +217,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423319531.255405"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -297,7 +233,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423319531.255405"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -313,7 +249,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423319531.255405"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -329,7 +265,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423319418.006402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -345,7 +281,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/OwncloudSyncService.m"
+            filePath = "owncloudnews/OCNOwncloudSyncService.m"
             timestampString = "423318592.909632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -361,7 +297,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/OwncloudSyncService.m"
+            filePath = "owncloudnews/OCNOwncloudSyncService.m"
             timestampString = "423318592.909632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -377,7 +313,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/OwncloudSyncService.m"
+            filePath = "owncloudnews/OCNOwncloudSyncService.m"
             timestampString = "423318592.909632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -393,7 +329,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/FeedOutlineViewController.m"
+            filePath = "owncloudnews/OCNFeedOutlineViewController.m"
             timestampString = "423319531.255405"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -409,7 +345,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsArticleServiceImpl.m"
+            filePath = "owncloudnews/OCNNewsArticleServiceImpl.m"
             timestampString = "423310612.365921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -425,7 +361,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/ItemListTableViewController.m"
+            filePath = "owncloudnews/OCNItemListTableViewController.m"
             timestampString = "423229356.768438"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -441,7 +377,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/AppDelegate.m"
+            filePath = "owncloudnews/OCNAppDelegate.m"
             timestampString = "423320090.03682"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -457,7 +393,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/AppDelegate.m"
+            filePath = "owncloudnews/OCNAppDelegate.m"
             timestampString = "423309025.835173"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -521,7 +457,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/OwncloudSyncService.m"
+            filePath = "owncloudnews/OCNOwncloudSyncService.m"
             timestampString = "423318592.909632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -537,7 +473,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/PreferencesWindowController.m"
+            filePath = "owncloudnews/OCNPreferencesWindowController.m"
             timestampString = "423252171.648976"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -553,7 +489,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/PreferencesWindowController.m"
+            filePath = "owncloudnews/OCNPreferencesWindowController.m"
             timestampString = "423252171.648976"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -569,13 +505,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/PreferencesWindowController.m"
+            filePath = "owncloudnews/OCNPreferencesWindowController.m"
             timestampString = "423252171.648976"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "@implementation PreferencesWindowController"
+            landmarkName = "@implementation OCNPreferencesWindowController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -585,7 +521,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/GeneralPreferencesViewController.m"
+            filePath = "owncloudnews/OCNGeneralPreferencesViewController.m"
             timestampString = "423319351.256313"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -601,7 +537,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/GeneralPreferencesViewController.m"
+            filePath = "owncloudnews/OCNGeneralPreferencesViewController.m"
             timestampString = "423319351.256313"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -617,13 +553,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/PreferencesWindowController.h"
+            filePath = "owncloudnews/OCNPreferencesWindowController.h"
             timestampString = "423252171.648976"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
-            landmarkName = "@interface PreferencesWindowController"
+            landmarkName = "@interface OCNPreferencesWindowController"
             landmarkType = "2">
          </BreakpointContent>
       </BreakpointProxy>
@@ -633,13 +569,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/PreferencesWindowController.m"
+            filePath = "owncloudnews/OCNPreferencesWindowController.m"
             timestampString = "423252171.648976"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
-            landmarkName = "@implementation PreferencesWindowController"
+            landmarkName = "@implementation OCNPreferencesWindowController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -649,7 +585,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/GeneralPreferencesViewController.m"
+            filePath = "owncloudnews/OCNGeneralPreferencesViewController.m"
             timestampString = "423319351.256313"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -665,7 +601,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/GeneralPreferencesViewController.m"
+            filePath = "owncloudnews/OCNGeneralPreferencesViewController.m"
             timestampString = "423319351.256313"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -681,55 +617,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
-            timestampString = "423253387.584272"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "+checkSettingsWithProtocol:andBaseUrl:andUsername:andPassword:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
-            timestampString = "423254104.028631"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "+checkSettingsWithProtocol:andBaseUrl:andUsername:andPassword:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
-            timestampString = "423254161.185958"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "+checkSettingsWithProtocol:andBaseUrl:andUsername:andPassword:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "owncloudnews/ServiceFactoryImpl.m"
+            filePath = "owncloudnews/OCNServiceFactoryImpl.m"
             timestampString = "423310612.365921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -745,23 +633,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
-            timestampString = "423254798.384348"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "-getFolders"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
+            filePath = "owncloudnews/OCNNewsAPI12.m"
             timestampString = "423254824.767241"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -777,23 +649,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
-            timestampString = "423254933.302063"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "-getFolders"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsAPI12.m"
+            filePath = "owncloudnews/OCNNewsAPI12.m"
             timestampString = "423255054.144074"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -809,7 +665,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsFeedServiceImpl.m"
+            filePath = "owncloudnews/OCNNewsFeedServiceImpl.m"
             timestampString = "423311700.664989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -825,7 +681,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/DatabaseService.m"
+            filePath = "owncloudnews/OCNDatabaseService.m"
             timestampString = "423318592.909632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -841,7 +697,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "owncloudnews/NewsFeedServiceImpl.m"
+            filePath = "owncloudnews/OCNNewsFeedServiceImpl.m"
             timestampString = "423312435.557028"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"

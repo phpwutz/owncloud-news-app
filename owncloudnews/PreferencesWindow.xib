@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="PreferencesWindowController">
+        <customObject id="-2" userLabel="File's Owner" customClass="OCNPreferencesWindowController">
             <connections>
                 <outlet property="window" destination="QvC-M9-y7g" id="Sgo-rv-3P7"/>
             </connections>

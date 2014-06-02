@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="ArticleViewController">
+        <customObject id="-2" userLabel="File's Owner" customClass="OCNArticleViewController">
             <connections>
                 <outlet property="view" destination="c22-O7-iKe" id="qMG-hf-xlT"/>
                 <outlet property="webView" destination="c22-O7-iKe" id="3fQ-gW-rbE"/>

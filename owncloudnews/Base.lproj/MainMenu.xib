@@ -228,7 +228,7 @@
                 </defaultToolbarItems>
             </toolbar>
         </window>
-        <customObject id="494" customClass="AppDelegate">
+        <customObject id="494" customClass="OCNAppDelegate">
             <connections>
                 <outlet property="splitView" destination="YVI-Nh-QeE" id="QLi-5x-FG6"/>
                 <outlet property="userDefaultsController" destination="6za-xD-X8d" id="pKX-s4-9Pk"/>

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol DatabaseObserver <NSObject>
+@protocol OCNDatabaseObserver <NSObject>
 
 - (void) databaseChanged;
 

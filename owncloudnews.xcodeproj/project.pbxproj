@@ -8,41 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		510310301897025800491EE7 /* ArticleTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 516222B91897022500A2E740 /* ArticleTemplate.html */; };
-		510310351897C94200491EE7 /* NewsAPI12.m in Sources */ = {isa = PBXBuildFile; fileRef = 510310341897C94200491EE7 /* NewsAPI12.m */; };
-		510310381897C9E300491EE7 /* Folder.m in Sources */ = {isa = PBXBuildFile; fileRef = 510310371897C9E300491EE7 /* Folder.m */; };
-		5107D6F418A129730074DF7C /* OutlineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5107D6F318A129730074DF7C /* OutlineNode.m */; };
+		510310351897C94200491EE7 /* OCNNewsAPI12.m in Sources */ = {isa = PBXBuildFile; fileRef = 510310341897C94200491EE7 /* OCNNewsAPI12.m */; };
+		510310381897C9E300491EE7 /* OCNFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 510310371897C9E300491EE7 /* OCNFolder.m */; };
+		5107D6F418A129730074DF7C /* OCNOutlineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5107D6F318A129730074DF7C /* OCNOutlineNode.m */; };
 		512983A51937451E008D6852 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 512983A41937451E008D6852 /* NSData+Base64.m */; };
-		512983AB19374BD2008D6852 /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512983AA19374BD2008D6852 /* ArticleViewController.m */; };
+		512983AB19374BD2008D6852 /* OCNArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512983AA19374BD2008D6852 /* OCNArticleViewController.m */; };
 		512983AE19374C41008D6852 /* ArticleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512983AD19374C41008D6852 /* ArticleView.xib */; };
 		5144995919374F0D00B769C3 /* OcnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5144995819374F0D00B769C3 /* OcnViewController.m */; };
-		5144995D1937565300B769C3 /* ItemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5144995B1937565300B769C3 /* ItemListTableViewController.m */; };
+		5144995D1937565300B769C3 /* OCNItemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5144995B1937565300B769C3 /* OCNItemListTableViewController.m */; };
 		51449960193756B400B769C3 /* ItemListTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5144995F193756B400B769C3 /* ItemListTableView.xib */; };
 		514499621937736C00B769C3 /* FeedOutlineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514499611937736C00B769C3 /* FeedOutlineView.xib */; };
-		514499661937738600B769C3 /* FeedOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514499641937738600B769C3 /* FeedOutlineViewController.m */; };
-		514E1CE71937EE5A002398E8 /* NewsFeedServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CE61937EE5A002398E8 /* NewsFeedServiceImpl.m */; };
-		514E1CEA1937EEBF002398E8 /* ServiceFactoryImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CE91937EEBF002398E8 /* ServiceFactoryImpl.m */; };
-		514E1CED1938DEDB002398E8 /* OwncloudSyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CEC1938DEDB002398E8 /* OwncloudSyncService.m */; };
-		514E1CF01938EC4B002398E8 /* NewsArticleServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CEF1938EC4B002398E8 /* NewsArticleServiceImpl.m */; };
+		514499661937738600B769C3 /* OCNFeedOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514499641937738600B769C3 /* OCNFeedOutlineViewController.m */; };
+		514E1CE71937EE5A002398E8 /* OCNNewsFeedServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CE61937EE5A002398E8 /* OCNNewsFeedServiceImpl.m */; };
+		514E1CEA1937EEBF002398E8 /* OCNServiceFactoryImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CE91937EEBF002398E8 /* OCNServiceFactoryImpl.m */; };
+		514E1CED1938DEDB002398E8 /* OCNOwncloudSyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CEC1938DEDB002398E8 /* OCNOwncloudSyncService.m */; };
+		514E1CF01938EC4B002398E8 /* OCNNewsArticleServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CEF1938EC4B002398E8 /* OCNNewsArticleServiceImpl.m */; };
 		514E1CF41939FADD002398E8 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 514E1CF31939FADD002398E8 /* ImageAndTextCell.m */; };
-		51577029193B2FF9009D8156 /* DatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 51577028193B2FF9009D8156 /* DatabaseService.m */; };
+		51577029193B2FF9009D8156 /* OCNDatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 51577028193B2FF9009D8156 /* OCNDatabaseService.m */; };
 		5157702D193B4DAA009D8156 /* Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5157702C193B4DAA009D8156 /* Observable.m */; };
 		51577030193B5287009D8156 /* NSInvocation+Constructors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5157702F193B5287009D8156 /* NSInvocation+Constructors.m */; };
 		5198071A189556A40030C1DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51980719189556A40030C1DB /* Cocoa.framework */; };
 		51980724189556A40030C1DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51980722189556A40030C1DB /* InfoPlist.strings */; };
 		51980726189556A40030C1DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51980725189556A40030C1DB /* main.m */; };
 		5198072A189556A40030C1DB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 51980728189556A40030C1DB /* Credits.rtf */; };
-		5198072D189556A40030C1DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5198072C189556A40030C1DB /* AppDelegate.m */; };
+		5198072D189556A40030C1DB /* OCNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5198072C189556A40030C1DB /* OCNAppDelegate.m */; };
 		51980732189556A40030C1DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51980731189556A40030C1DB /* Images.xcassets */; };
 		51980739189556A50030C1DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51980738189556A50030C1DB /* XCTest.framework */; };
 		5198073A189556A50030C1DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51980719189556A40030C1DB /* Cocoa.framework */; };
 		51980742189556A50030C1DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51980740189556A50030C1DB /* InfoPlist.strings */; };
 		51980744189556A50030C1DB /* owncloudnewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51980743189556A50030C1DB /* owncloudnewsTests.m */; };
-		5198074F189564110030C1DB /* NewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 5198074E189564110030C1DB /* NewsFeed.m */; };
-		5198075318956ECF0030C1DB /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5198075218956ECF0030C1DB /* NewsItem.m */; };
-		519E4A9A193A31C3005CDA40 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E4A99193A31C3005CDA40 /* GeneralPreferencesViewController.m */; };
+		5198074F189564110030C1DB /* OCNNewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 5198074E189564110030C1DB /* OCNNewsFeed.m */; };
+		5198075318956ECF0030C1DB /* OCNNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5198075218956ECF0030C1DB /* OCNNewsItem.m */; };
+		519E4A9A193A31C3005CDA40 /* OCNGeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E4A99193A31C3005CDA40 /* OCNGeneralPreferencesViewController.m */; };
 		519E4A9C193A31D6005CDA40 /* GeneralPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E4A9B193A31D6005CDA40 /* GeneralPreferences.xib */; };
 		519E4A9E193A35CB005CDA40 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E4A9D193A35CB005CDA40 /* PreferencesWindow.xib */; };
-		519E4AA4193A36D8005CDA40 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E4AA3193A36D8005CDA40 /* PreferencesWindowController.m */; };
+		519E4AA4193A36D8005CDA40 /* OCNPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E4AA3193A36D8005CDA40 /* OCNPreferencesWindowController.m */; };
 		51C73ECC189582D300712D2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C73ECB189582D300712D2E /* WebKit.framework */; };
 		51D3054D189876B900AFC772 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D30543189876B900AFC772 /* FMDatabase.m */; };
 		51D3054E189876B900AFC772 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D30545189876B900AFC772 /* FMDatabaseAdditions.m */; };
@@ -65,37 +65,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		510310331897C94200491EE7 /* NewsAPI12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsAPI12.h; sourceTree = "<group>"; };
-		510310341897C94200491EE7 /* NewsAPI12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsAPI12.m; sourceTree = "<group>"; };
-		510310361897C9E300491EE7 /* Folder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Folder.h; sourceTree = "<group>"; };
-		510310371897C9E300491EE7 /* Folder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Folder.m; sourceTree = "<group>"; };
-		5107D6F218A129730074DF7C /* OutlineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlineNode.h; sourceTree = "<group>"; };
-		5107D6F318A129730074DF7C /* OutlineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutlineNode.m; sourceTree = "<group>"; };
+		510310331897C94200491EE7 /* OCNNewsAPI12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNNewsAPI12.h; sourceTree = "<group>"; };
+		510310341897C94200491EE7 /* OCNNewsAPI12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNNewsAPI12.m; sourceTree = "<group>"; };
+		510310361897C9E300491EE7 /* OCNFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNFolder.h; sourceTree = "<group>"; };
+		510310371897C9E300491EE7 /* OCNFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNFolder.m; sourceTree = "<group>"; };
+		5107D6F218A129730074DF7C /* OCNOutlineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNOutlineNode.h; sourceTree = "<group>"; };
+		5107D6F318A129730074DF7C /* OCNOutlineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNOutlineNode.m; sourceTree = "<group>"; };
 		512983A31937451E008D6852 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "owncloudnews/NSData+Base64.h"; sourceTree = "<group>"; };
 		512983A41937451E008D6852 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "owncloudnews/NSData+Base64.m"; sourceTree = "<group>"; };
 		512983A819374A4E008D6852 /* OcnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OcnViewController.h; sourceTree = "<group>"; };
-		512983A919374BD2008D6852 /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
-		512983AA19374BD2008D6852 /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
+		512983A919374BD2008D6852 /* OCNArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNArticleViewController.h; sourceTree = "<group>"; };
+		512983AA19374BD2008D6852 /* OCNArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNArticleViewController.m; sourceTree = "<group>"; };
 		512983AD19374C41008D6852 /* ArticleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleView.xib; sourceTree = "<group>"; };
 		5144995819374F0D00B769C3 /* OcnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OcnViewController.m; sourceTree = "<group>"; };
-		5144995A1937565300B769C3 /* ItemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListTableViewController.h; sourceTree = "<group>"; };
-		5144995B1937565300B769C3 /* ItemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListTableViewController.m; sourceTree = "<group>"; };
+		5144995A1937565300B769C3 /* OCNItemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNItemListTableViewController.h; sourceTree = "<group>"; };
+		5144995B1937565300B769C3 /* OCNItemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNItemListTableViewController.m; sourceTree = "<group>"; };
 		5144995F193756B400B769C3 /* ItemListTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemListTableView.xib; sourceTree = "<group>"; };
 		514499611937736C00B769C3 /* FeedOutlineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedOutlineView.xib; sourceTree = "<group>"; };
-		514499631937738600B769C3 /* FeedOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedOutlineViewController.h; sourceTree = "<group>"; };
-		514499641937738600B769C3 /* FeedOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedOutlineViewController.m; sourceTree = "<group>"; };
-		514E1CE51937EE5A002398E8 /* NewsFeedServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedServiceImpl.h; sourceTree = "<group>"; };
-		514E1CE61937EE5A002398E8 /* NewsFeedServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedServiceImpl.m; sourceTree = "<group>"; };
-		514E1CE81937EEBF002398E8 /* ServiceFactoryImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceFactoryImpl.h; sourceTree = "<group>"; };
-		514E1CE91937EEBF002398E8 /* ServiceFactoryImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceFactoryImpl.m; sourceTree = "<group>"; };
-		514E1CEB1938DEDB002398E8 /* OwncloudSyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwncloudSyncService.h; sourceTree = "<group>"; };
-		514E1CEC1938DEDB002398E8 /* OwncloudSyncService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwncloudSyncService.m; sourceTree = "<group>"; };
-		514E1CEE1938EC4B002398E8 /* NewsArticleServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsArticleServiceImpl.h; sourceTree = "<group>"; };
-		514E1CEF1938EC4B002398E8 /* NewsArticleServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsArticleServiceImpl.m; sourceTree = "<group>"; };
+		514499631937738600B769C3 /* OCNFeedOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNFeedOutlineViewController.h; sourceTree = "<group>"; };
+		514499641937738600B769C3 /* OCNFeedOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNFeedOutlineViewController.m; sourceTree = "<group>"; };
+		514E1CE51937EE5A002398E8 /* OCNNewsFeedServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNNewsFeedServiceImpl.h; sourceTree = "<group>"; };
+		514E1CE61937EE5A002398E8 /* OCNNewsFeedServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNNewsFeedServiceImpl.m; sourceTree = "<group>"; };
+		514E1CE81937EEBF002398E8 /* OCNServiceFactoryImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNServiceFactoryImpl.h; sourceTree = "<group>"; };
+		514E1CE91937EEBF002398E8 /* OCNServiceFactoryImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNServiceFactoryImpl.m; sourceTree = "<group>"; };
+		514E1CEB1938DEDB002398E8 /* OCNOwncloudSyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNOwncloudSyncService.h; sourceTree = "<group>"; };
+		514E1CEC1938DEDB002398E8 /* OCNOwncloudSyncService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNOwncloudSyncService.m; sourceTree = "<group>"; };
+		514E1CEE1938EC4B002398E8 /* OCNNewsArticleServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNNewsArticleServiceImpl.h; sourceTree = "<group>"; };
+		514E1CEF1938EC4B002398E8 /* OCNNewsArticleServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNNewsArticleServiceImpl.m; sourceTree = "<group>"; };
 		514E1CF21939FADD002398E8 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageAndTextCell.h; path = owncloudnews/ImageAndTextCell.h; sourceTree = "<group>"; };
 		514E1CF31939FADD002398E8 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageAndTextCell.m; path = owncloudnews/ImageAndTextCell.m; sourceTree = "<group>"; };
-		51577027193B2FF9009D8156 /* DatabaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseService.h; sourceTree = "<group>"; };
-		51577028193B2FF9009D8156 /* DatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseService.m; sourceTree = "<group>"; };
+		51577027193B2FF9009D8156 /* OCNDatabaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNDatabaseService.h; sourceTree = "<group>"; };
+		51577028193B2FF9009D8156 /* OCNDatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNDatabaseService.m; sourceTree = "<group>"; };
 		5157702B193B4DAA009D8156 /* Observable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Observable.h; path = owncloudnews/Observable.h; sourceTree = "<group>"; };
 		5157702C193B4DAA009D8156 /* Observable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Observable.m; path = owncloudnews/Observable.m; sourceTree = "<group>"; };
 		5157702E193B5287009D8156 /* NSInvocation+Constructors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+Constructors.h"; path = "owncloudnews/NSInvocation+Constructors.h"; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 		51980725189556A40030C1DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51980727189556A40030C1DB /* owncloudnews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "owncloudnews-Prefix.pch"; sourceTree = "<group>"; };
 		51980729189556A40030C1DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5198072B189556A40030C1DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5198072C189556A40030C1DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5198072B189556A40030C1DB /* OCNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCNAppDelegate.h; sourceTree = "<group>"; };
+		5198072C189556A40030C1DB /* OCNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCNAppDelegate.m; sourceTree = "<group>"; };
 		5198072F189556A40030C1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		51980731189556A40030C1DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		51980737189556A50030C1DB /* owncloudnewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = owncloudnewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,16 +121,16 @@
 		5198073F189556A50030C1DB /* owncloudnewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "owncloudnewsTests-Info.plist"; sourceTree = "<group>"; };
 		51980741189556A50030C1DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51980743189556A50030C1DB /* owncloudnewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = owncloudnewsTests.m; sourceTree = "<group>"; };
-		5198074D189564110030C1DB /* NewsFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeed.h; sourceTree = "<group>"; };
-		5198074E189564110030C1DB /* NewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeed.m; sourceTree = "<group>"; };
-		5198075118956ECF0030C1DB /* NewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
-		5198075218956ECF0030C1DB /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
-		519E4A98193A31C3005CDA40 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
-		519E4A99193A31C3005CDA40 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
+		5198074D189564110030C1DB /* OCNNewsFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNNewsFeed.h; sourceTree = "<group>"; };
+		5198074E189564110030C1DB /* OCNNewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNNewsFeed.m; sourceTree = "<group>"; };
+		5198075118956ECF0030C1DB /* OCNNewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNNewsItem.h; sourceTree = "<group>"; };
+		5198075218956ECF0030C1DB /* OCNNewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNNewsItem.m; sourceTree = "<group>"; };
+		519E4A98193A31C3005CDA40 /* OCNGeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNGeneralPreferencesViewController.h; sourceTree = "<group>"; };
+		519E4A99193A31C3005CDA40 /* OCNGeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNGeneralPreferencesViewController.m; sourceTree = "<group>"; };
 		519E4A9B193A31D6005CDA40 /* GeneralPreferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferences.xib; sourceTree = "<group>"; };
 		519E4A9D193A35CB005CDA40 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
-		519E4AA2193A36D8005CDA40 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
-		519E4AA3193A36D8005CDA40 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		519E4AA2193A36D8005CDA40 /* OCNPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNPreferencesWindowController.h; sourceTree = "<group>"; };
+		519E4AA3193A36D8005CDA40 /* OCNPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNPreferencesWindowController.m; sourceTree = "<group>"; };
 		51C73ECB189582D300712D2E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		51D30542189876B900AFC772 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		51D30543189876B900AFC772 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
@@ -174,14 +174,14 @@
 			children = (
 				512983A819374A4E008D6852 /* OcnViewController.h */,
 				5144995819374F0D00B769C3 /* OcnViewController.m */,
-				512983A919374BD2008D6852 /* ArticleViewController.h */,
-				512983AA19374BD2008D6852 /* ArticleViewController.m */,
-				5144995A1937565300B769C3 /* ItemListTableViewController.h */,
-				5144995B1937565300B769C3 /* ItemListTableViewController.m */,
-				514499631937738600B769C3 /* FeedOutlineViewController.h */,
-				514499641937738600B769C3 /* FeedOutlineViewController.m */,
-				519E4A98193A31C3005CDA40 /* GeneralPreferencesViewController.h */,
-				519E4A99193A31C3005CDA40 /* GeneralPreferencesViewController.m */,
+				512983A919374BD2008D6852 /* OCNArticleViewController.h */,
+				512983AA19374BD2008D6852 /* OCNArticleViewController.m */,
+				5144995A1937565300B769C3 /* OCNItemListTableViewController.h */,
+				5144995B1937565300B769C3 /* OCNItemListTableViewController.m */,
+				514499631937738600B769C3 /* OCNFeedOutlineViewController.h */,
+				514499641937738600B769C3 /* OCNFeedOutlineViewController.m */,
+				519E4A98193A31C3005CDA40 /* OCNGeneralPreferencesViewController.h */,
+				519E4A99193A31C3005CDA40 /* OCNGeneralPreferencesViewController.m */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -200,8 +200,8 @@
 		51422B8F193A25B5009E16EA /* Window Controller */ = {
 			isa = PBXGroup;
 			children = (
-				519E4AA2193A36D8005CDA40 /* PreferencesWindowController.h */,
-				519E4AA3193A36D8005CDA40 /* PreferencesWindowController.m */,
+				519E4AA2193A36D8005CDA40 /* OCNPreferencesWindowController.h */,
+				519E4AA3193A36D8005CDA40 /* OCNPreferencesWindowController.m */,
 			);
 			name = "Window Controller";
 			sourceTree = "<group>";
@@ -217,18 +217,18 @@
 		514E1CE01937AF7A002398E8 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				510310331897C94200491EE7 /* NewsAPI12.h */,
-				510310341897C94200491EE7 /* NewsAPI12.m */,
-				514E1CE51937EE5A002398E8 /* NewsFeedServiceImpl.h */,
-				514E1CE61937EE5A002398E8 /* NewsFeedServiceImpl.m */,
-				514E1CE81937EEBF002398E8 /* ServiceFactoryImpl.h */,
-				514E1CE91937EEBF002398E8 /* ServiceFactoryImpl.m */,
-				514E1CEB1938DEDB002398E8 /* OwncloudSyncService.h */,
-				514E1CEC1938DEDB002398E8 /* OwncloudSyncService.m */,
-				514E1CEE1938EC4B002398E8 /* NewsArticleServiceImpl.h */,
-				514E1CEF1938EC4B002398E8 /* NewsArticleServiceImpl.m */,
-				51577027193B2FF9009D8156 /* DatabaseService.h */,
-				51577028193B2FF9009D8156 /* DatabaseService.m */,
+				510310331897C94200491EE7 /* OCNNewsAPI12.h */,
+				510310341897C94200491EE7 /* OCNNewsAPI12.m */,
+				514E1CE51937EE5A002398E8 /* OCNNewsFeedServiceImpl.h */,
+				514E1CE61937EE5A002398E8 /* OCNNewsFeedServiceImpl.m */,
+				514E1CE81937EEBF002398E8 /* OCNServiceFactoryImpl.h */,
+				514E1CE91937EEBF002398E8 /* OCNServiceFactoryImpl.m */,
+				514E1CEB1938DEDB002398E8 /* OCNOwncloudSyncService.h */,
+				514E1CEC1938DEDB002398E8 /* OCNOwncloudSyncService.m */,
+				514E1CEE1938EC4B002398E8 /* OCNNewsArticleServiceImpl.h */,
+				514E1CEF1938EC4B002398E8 /* OCNNewsArticleServiceImpl.m */,
+				51577027193B2FF9009D8156 /* OCNDatabaseService.h */,
+				51577028193B2FF9009D8156 /* OCNDatabaseService.m */,
 				51577031193B52F4009D8156 /* DatabaseObserver.h */,
 			);
 			name = Service;
@@ -301,8 +301,8 @@
 				512983AC19374C19008D6852 /* View */,
 				512983A7193747F5008D6852 /* View Controller */,
 				5198075018956DA60030C1DB /* Models */,
-				5198072B189556A40030C1DB /* AppDelegate.h */,
-				5198072C189556A40030C1DB /* AppDelegate.m */,
+				5198072B189556A40030C1DB /* OCNAppDelegate.h */,
+				5198072C189556A40030C1DB /* OCNAppDelegate.m */,
 				5198072E189556A40030C1DB /* MainMenu.xib */,
 				51980731189556A40030C1DB /* Images.xcassets */,
 				51980720189556A40030C1DB /* Supporting Files */,
@@ -345,14 +345,14 @@
 		5198075018956DA60030C1DB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5198074D189564110030C1DB /* NewsFeed.h */,
-				5198074E189564110030C1DB /* NewsFeed.m */,
-				5198075118956ECF0030C1DB /* NewsItem.h */,
-				5198075218956ECF0030C1DB /* NewsItem.m */,
-				510310361897C9E300491EE7 /* Folder.h */,
-				510310371897C9E300491EE7 /* Folder.m */,
-				5107D6F218A129730074DF7C /* OutlineNode.h */,
-				5107D6F318A129730074DF7C /* OutlineNode.m */,
+				5198074D189564110030C1DB /* OCNNewsFeed.h */,
+				5198074E189564110030C1DB /* OCNNewsFeed.m */,
+				5198075118956ECF0030C1DB /* OCNNewsItem.h */,
+				5198075218956ECF0030C1DB /* OCNNewsItem.m */,
+				510310361897C9E300491EE7 /* OCNFolder.h */,
+				510310371897C9E300491EE7 /* OCNFolder.m */,
+				5107D6F218A129730074DF7C /* OCNOutlineNode.h */,
+				5107D6F318A129730074DF7C /* OCNOutlineNode.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -480,32 +480,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5198074F189564110030C1DB /* NewsFeed.m in Sources */,
-				514E1CE71937EE5A002398E8 /* NewsFeedServiceImpl.m in Sources */,
-				5198075318956ECF0030C1DB /* NewsItem.m in Sources */,
-				514499661937738600B769C3 /* FeedOutlineViewController.m in Sources */,
-				514E1CF01938EC4B002398E8 /* NewsArticleServiceImpl.m in Sources */,
+				5198074F189564110030C1DB /* OCNNewsFeed.m in Sources */,
+				514E1CE71937EE5A002398E8 /* OCNNewsFeedServiceImpl.m in Sources */,
+				5198075318956ECF0030C1DB /* OCNNewsItem.m in Sources */,
+				514499661937738600B769C3 /* OCNFeedOutlineViewController.m in Sources */,
+				514E1CF01938EC4B002398E8 /* OCNNewsArticleServiceImpl.m in Sources */,
 				51D3054F189876B900AFC772 /* FMDatabasePool.m in Sources */,
-				512983AB19374BD2008D6852 /* ArticleViewController.m in Sources */,
-				5107D6F418A129730074DF7C /* OutlineNode.m in Sources */,
+				512983AB19374BD2008D6852 /* OCNArticleViewController.m in Sources */,
+				5107D6F418A129730074DF7C /* OCNOutlineNode.m in Sources */,
 				51D30550189876B900AFC772 /* FMDatabaseQueue.m in Sources */,
 				51D30552189876B900AFC772 /* FMResultSet.m in Sources */,
-				5198072D189556A40030C1DB /* AppDelegate.m in Sources */,
-				519E4A9A193A31C3005CDA40 /* GeneralPreferencesViewController.m in Sources */,
+				5198072D189556A40030C1DB /* OCNAppDelegate.m in Sources */,
+				519E4A9A193A31C3005CDA40 /* OCNGeneralPreferencesViewController.m in Sources */,
 				5144995919374F0D00B769C3 /* OcnViewController.m in Sources */,
 				51577030193B5287009D8156 /* NSInvocation+Constructors.m in Sources */,
-				514E1CED1938DEDB002398E8 /* OwncloudSyncService.m in Sources */,
-				510310351897C94200491EE7 /* NewsAPI12.m in Sources */,
-				5144995D1937565300B769C3 /* ItemListTableViewController.m in Sources */,
-				514E1CEA1937EEBF002398E8 /* ServiceFactoryImpl.m in Sources */,
+				514E1CED1938DEDB002398E8 /* OCNOwncloudSyncService.m in Sources */,
+				510310351897C94200491EE7 /* OCNNewsAPI12.m in Sources */,
+				5144995D1937565300B769C3 /* OCNItemListTableViewController.m in Sources */,
+				514E1CEA1937EEBF002398E8 /* OCNServiceFactoryImpl.m in Sources */,
 				51980726189556A40030C1DB /* main.m in Sources */,
 				5157702D193B4DAA009D8156 /* Observable.m in Sources */,
 				51D3054D189876B900AFC772 /* FMDatabase.m in Sources */,
-				510310381897C9E300491EE7 /* Folder.m in Sources */,
+				510310381897C9E300491EE7 /* OCNFolder.m in Sources */,
 				51D3054E189876B900AFC772 /* FMDatabaseAdditions.m in Sources */,
 				514E1CF41939FADD002398E8 /* ImageAndTextCell.m in Sources */,
-				519E4AA4193A36D8005CDA40 /* PreferencesWindowController.m in Sources */,
-				51577029193B2FF9009D8156 /* DatabaseService.m in Sources */,
+				519E4AA4193A36D8005CDA40 /* OCNPreferencesWindowController.m in Sources */,
+				51577029193B2FF9009D8156 /* OCNDatabaseService.m in Sources */,
 				512983A51937451E008D6852 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

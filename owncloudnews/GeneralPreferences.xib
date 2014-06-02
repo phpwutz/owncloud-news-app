@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="GeneralPreferencesViewController">
+        <customObject id="-2" userLabel="File's Owner" customClass="OCNGeneralPreferencesViewController">
             <connections>
                 <outlet property="lblCheckResult" destination="7ZR-aF-EmQ" id="ghW-ne-rSB"/>
                 <outlet property="txtBaseUrl" destination="VBB-dK-d5p" id="H2s-KQ-yGZ"/>
