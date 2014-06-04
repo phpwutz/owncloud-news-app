@@ -44,6 +44,7 @@
 		519E4A9E193A35CB005CDA40 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E4A9D193A35CB005CDA40 /* PreferencesWindow.xib */; };
 		519E4AA4193A36D8005CDA40 /* OCNPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E4AA3193A36D8005CDA40 /* OCNPreferencesWindowController.m */; };
 		519FC28F193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC28E193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m */; };
+		519FC292193FC4CD008A80E9 /* OCNItemListTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC291193FC4CD008A80E9 /* OCNItemListTableViewDelegate.m */; };
 		51C73ECC189582D300712D2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C73ECB189582D300712D2E /* WebKit.framework */; };
 		51D3054D189876B900AFC772 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D30543189876B900AFC772 /* FMDatabase.m */; };
 		51D3054E189876B900AFC772 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D30545189876B900AFC772 /* FMDatabaseAdditions.m */; };
@@ -134,6 +135,8 @@
 		519E4AA3193A36D8005CDA40 /* OCNPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNPreferencesWindowController.m; sourceTree = "<group>"; };
 		519FC28D193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNFeedOutlineViewDelegate.h; sourceTree = "<group>"; };
 		519FC28E193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNFeedOutlineViewDelegate.m; sourceTree = "<group>"; };
+		519FC290193FC4CD008A80E9 /* OCNItemListTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNItemListTableViewDelegate.h; sourceTree = "<group>"; };
+		519FC291193FC4CD008A80E9 /* OCNItemListTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNItemListTableViewDelegate.m; sourceTree = "<group>"; };
 		51C73ECB189582D300712D2E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		51D30542189876B900AFC772 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		51D30543189876B900AFC772 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
@@ -366,6 +369,8 @@
 			children = (
 				519FC28D193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.h */,
 				519FC28E193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m */,
+				519FC290193FC4CD008A80E9 /* OCNItemListTableViewDelegate.h */,
+				519FC291193FC4CD008A80E9 /* OCNItemListTableViewDelegate.m */,
 			);
 			name = Delegates;
 			sourceTree = "<group>";
@@ -517,6 +522,7 @@
 				51D3054D189876B900AFC772 /* FMDatabase.m in Sources */,
 				510310381897C9E300491EE7 /* OCNFolder.m in Sources */,
 				51D3054E189876B900AFC772 /* FMDatabaseAdditions.m in Sources */,
+				519FC292193FC4CD008A80E9 /* OCNItemListTableViewDelegate.m in Sources */,
 				514E1CF41939FADD002398E8 /* ImageAndTextCell.m in Sources */,
 				519E4AA4193A36D8005CDA40 /* OCNPreferencesWindowController.m in Sources */,
 				51577029193B2FF9009D8156 /* OCNDatabaseService.m in Sources */,

@@ -25,10 +25,7 @@
 @property (weak) IBOutlet NSTextFieldCell *titleCell;
 
 - (void) loadArticlesForFeed: (OCNNewsFeed*) feed;
-
-- (void)tableViewSelectionDidChange:(NSNotification *)aNotification;
-- (void)tableView:(NSTableView *)tableView willDisplayCell:(id)cell forTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row;
-- (NSView *)tableView:(NSTableView *)aTableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row;
+-(void) displayArticle: (OCNNewsItem*) article;
 
 - (void) databaseChanged;
 @end

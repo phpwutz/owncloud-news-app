@@ -126,7 +126,7 @@
                         </tableColumns>
                         <connections>
                             <binding destination="enM-wo-oBh" name="content" keyPath="arrangedObjects" id="iZN-6N-zj1"/>
-                            <outlet property="delegate" destination="-2" id="2O8-DQ-hK1"/>
+                            <outlet property="delegate" destination="cFg-hg-RS4" id="PlN-i2-Kar"/>
                         </connections>
                     </tableView>
                 </subviews>
@@ -164,6 +164,13 @@
                 <binding destination="enM-wo-oBh" name="value" keyPath="arrangedObjects.author" id="0JR-3c-4hX"/>
             </connections>
         </tableColumn>
+        <customObject id="cFg-hg-RS4" customClass="OCNItemListTableViewDelegate">
+            <connections>
+                <outlet property="itemArrayController" destination="enM-wo-oBh" id="RuN-qN-0gc"/>
+                <outlet property="itemListTableViewController" destination="-2" id="yeA-Ku-2z2"/>
+                <outlet property="tableView" destination="kXz-5O-Des" id="PQj-TC-c7N"/>
+            </connections>
+        </customObject>
     </objects>
     <resources>
         <image name="StarIconOff" width="157.09091186523438" height="150.54545593261719"/>
