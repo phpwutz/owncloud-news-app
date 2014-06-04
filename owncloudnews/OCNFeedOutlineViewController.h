@@ -11,7 +11,7 @@
 #import "OCNItemListTableViewController.h"
 #import "DatabaseObserver.h"
 
-@interface OCNFeedOutlineViewController : OcnViewController <NSOutlineViewDelegate, OCNDatabaseObserver>{
+@interface OCNFeedOutlineViewController : OcnViewController <OCNDatabaseObserver>{
     OCNNewsFeedServiceImpl* newsFeedService;
 }
 
@@ -21,8 +21,7 @@
 
 - (id) initWithItemListTableViewController: (OCNItemListTableViewController*) aItemListTableViewController;
 
-- (void)outlineView:(NSOutlineView *)outlineView willDisplayCell:(id)cell forTableColumn:(NSTableColumn *)tableColumn item:(id)item;
-- (void)outlineViewSelectionDidChange:(NSNotification *) aNotification;
+- (void) loadArticlesForFeed: (OCNNewsFeed*) feed;
 
 // comply to DatabaseObserver
 - (void) databaseChanged;

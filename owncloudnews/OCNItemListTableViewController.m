@@ -46,11 +46,11 @@
     //NSLog(@"loading feed with id %u ", [feed identity]);
     [_itemArrayController setContent: [newsArticleService getArticlesForFeed:feed]];
     lastLoadedFeed = feed;
-    if([[_itemArrayController arrangedObjects] count] > 0){
-        NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:0];
-        [tableView selectRowIndexes:indexSet byExtendingSelection:NO];
-        [self tableViewSelectionDidChange:nil];
-    }
+//    if([[_itemArrayController arrangedObjects] count] > 0){
+//        NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:0];
+//        [tableView selectRowIndexes:indexSet byExtendingSelection:NO];
+//        [self tableViewSelectionDidChange:nil];
+//    }
 }
 
 -(void)tableView:(NSTableView *)tableView willDisplayCell:(id)cell forTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row

@@ -43,6 +43,7 @@
 		519E4A9C193A31D6005CDA40 /* GeneralPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E4A9B193A31D6005CDA40 /* GeneralPreferences.xib */; };
 		519E4A9E193A35CB005CDA40 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E4A9D193A35CB005CDA40 /* PreferencesWindow.xib */; };
 		519E4AA4193A36D8005CDA40 /* OCNPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E4AA3193A36D8005CDA40 /* OCNPreferencesWindowController.m */; };
+		519FC28F193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC28E193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m */; };
 		51C73ECC189582D300712D2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C73ECB189582D300712D2E /* WebKit.framework */; };
 		51D3054D189876B900AFC772 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D30543189876B900AFC772 /* FMDatabase.m */; };
 		51D3054E189876B900AFC772 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D30545189876B900AFC772 /* FMDatabaseAdditions.m */; };
@@ -131,6 +132,8 @@
 		519E4A9D193A35CB005CDA40 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
 		519E4AA2193A36D8005CDA40 /* OCNPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNPreferencesWindowController.h; sourceTree = "<group>"; };
 		519E4AA3193A36D8005CDA40 /* OCNPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNPreferencesWindowController.m; sourceTree = "<group>"; };
+		519FC28D193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNFeedOutlineViewDelegate.h; sourceTree = "<group>"; };
+		519FC28E193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNFeedOutlineViewDelegate.m; sourceTree = "<group>"; };
 		51C73ECB189582D300712D2E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		51D30542189876B900AFC772 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		51D30543189876B900AFC772 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
@@ -295,6 +298,7 @@
 		5198071F189556A40030C1DB /* owncloudnews */ = {
 			isa = PBXGroup;
 			children = (
+				519FC28C193FBAC7008A80E9 /* Delegates */,
 				51422B8F193A25B5009E16EA /* Window Controller */,
 				51422B90193A25E1009E16EA /* Window */,
 				514E1CE01937AF7A002398E8 /* Service */,
@@ -355,6 +359,15 @@
 				5107D6F318A129730074DF7C /* OCNOutlineNode.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		519FC28C193FBAC7008A80E9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				519FC28D193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.h */,
+				519FC28E193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m */,
+			);
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 		51D30541189876B900AFC772 /* fmdb */ = {
@@ -485,6 +498,7 @@
 				5198075318956ECF0030C1DB /* OCNNewsItem.m in Sources */,
 				514499661937738600B769C3 /* OCNFeedOutlineViewController.m in Sources */,
 				514E1CF01938EC4B002398E8 /* OCNNewsArticleServiceImpl.m in Sources */,
+				519FC28F193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m in Sources */,
 				51D3054F189876B900AFC772 /* FMDatabasePool.m in Sources */,
 				512983AB19374BD2008D6852 /* OCNArticleViewController.m in Sources */,
 				5107D6F418A129730074DF7C /* OCNOutlineNode.m in Sources */,
