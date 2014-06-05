@@ -45,6 +45,24 @@
 		519E4AA4193A36D8005CDA40 /* OCNPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E4AA3193A36D8005CDA40 /* OCNPreferencesWindowController.m */; };
 		519FC28F193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC28E193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m */; };
 		519FC292193FC4CD008A80E9 /* OCNItemListTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC291193FC4CD008A80E9 /* OCNItemListTableViewDelegate.m */; };
+		519FC2B91940F313008A80E9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 519FC2941940F312008A80E9 /* .gitignore */; };
+		519FC2BA1940F313008A80E9 /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 519FC2951940F312008A80E9 /* CONTRIBUTING.md */; };
+		519FC2BB1940F313008A80E9 /* EDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC2981940F312008A80E9 /* EDQueue.m */; };
+		519FC2BC1940F313008A80E9 /* EDQueueStorageEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC29A1940F312008A80E9 /* EDQueueStorageEngine.m */; };
+		519FC2BD1940F313008A80E9 /* EDQueue.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 519FC29B1940F312008A80E9 /* EDQueue.podspec */; };
+		519FC2BE1940F313008A80E9 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 519FC29C1940F312008A80E9 /* LICENSE.md */; };
+		519FC2BF1940F313008A80E9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC2A01940F312008A80E9 /* FMDatabase.m */; };
+		519FC2C01940F313008A80E9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC2A21940F312008A80E9 /* FMDatabaseAdditions.m */; };
+		519FC2C11940F313008A80E9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC2A41940F312008A80E9 /* FMDatabasePool.m */; };
+		519FC2C21940F313008A80E9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC2A61940F312008A80E9 /* FMDatabaseQueue.m */; };
+		519FC2C31940F313008A80E9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC2A81940F312008A80E9 /* FMResultSet.m */; };
+		519FC2C41940F313008A80E9 /* EDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC2AB1940F312008A80E9 /* EDAppDelegate.m */; };
+		519FC2C51940F313008A80E9 /* EDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC2AD1940F312008A80E9 /* EDViewController.m */; };
+		519FC2C61940F313008A80E9 /* EDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519FC2AE1940F312008A80E9 /* EDViewController.xib */; };
+		519FC2C71940F313008A80E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 519FC2B01940F312008A80E9 /* InfoPlist.strings */; };
+		519FC2C81940F313008A80E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FC2B21940F312008A80E9 /* main.m */; };
+		519FC2C91940F313008A80E9 /* queue-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 519FC2B31940F312008A80E9 /* queue-Info.plist */; };
+		519FC2CA1940F313008A80E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 519FC2B81940F313008A80E9 /* README.md */; };
 		51C73ECC189582D300712D2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C73ECB189582D300712D2E /* WebKit.framework */; };
 		51D3054D189876B900AFC772 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D30543189876B900AFC772 /* FMDatabase.m */; };
 		51D3054E189876B900AFC772 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D30545189876B900AFC772 /* FMDatabaseAdditions.m */; };
@@ -63,6 +81,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 51980715189556A40030C1DB;
 			remoteInfo = owncloudnews;
+		};
+		519FC2CC1940F313008A80E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 519FC2B51940F312008A80E9 /* queue.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C395D508159E56760041510C;
+			remoteInfo = queue;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -137,6 +162,35 @@
 		519FC28E193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNFeedOutlineViewDelegate.m; sourceTree = "<group>"; };
 		519FC290193FC4CD008A80E9 /* OCNItemListTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNItemListTableViewDelegate.h; sourceTree = "<group>"; };
 		519FC291193FC4CD008A80E9 /* OCNItemListTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNItemListTableViewDelegate.m; sourceTree = "<group>"; };
+		519FC2941940F312008A80E9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		519FC2951940F312008A80E9 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		519FC2971940F312008A80E9 /* EDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDQueue.h; sourceTree = "<group>"; };
+		519FC2981940F312008A80E9 /* EDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDQueue.m; sourceTree = "<group>"; };
+		519FC2991940F312008A80E9 /* EDQueueStorageEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDQueueStorageEngine.h; sourceTree = "<group>"; };
+		519FC29A1940F312008A80E9 /* EDQueueStorageEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDQueueStorageEngine.m; sourceTree = "<group>"; };
+		519FC29B1940F312008A80E9 /* EDQueue.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EDQueue.podspec; sourceTree = "<group>"; };
+		519FC29C1940F312008A80E9 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		519FC29F1940F312008A80E9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		519FC2A01940F312008A80E9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		519FC2A11940F312008A80E9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		519FC2A21940F312008A80E9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		519FC2A31940F312008A80E9 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		519FC2A41940F312008A80E9 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		519FC2A51940F312008A80E9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		519FC2A61940F312008A80E9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		519FC2A71940F312008A80E9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		519FC2A81940F312008A80E9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		519FC2AA1940F312008A80E9 /* EDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAppDelegate.h; sourceTree = "<group>"; };
+		519FC2AB1940F312008A80E9 /* EDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAppDelegate.m; sourceTree = "<group>"; };
+		519FC2AC1940F312008A80E9 /* EDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDViewController.h; sourceTree = "<group>"; };
+		519FC2AD1940F312008A80E9 /* EDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDViewController.m; sourceTree = "<group>"; };
+		519FC2AF1940F312008A80E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EDViewController.xib; sourceTree = "<group>"; };
+		519FC2B11940F312008A80E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		519FC2B21940F312008A80E9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		519FC2B31940F312008A80E9 /* queue-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "queue-Info.plist"; sourceTree = "<group>"; };
+		519FC2B41940F312008A80E9 /* queue-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "queue-Prefix.pch"; sourceTree = "<group>"; };
+		519FC2B51940F312008A80E9 /* queue.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = queue.xcodeproj; sourceTree = "<group>"; };
+		519FC2B81940F313008A80E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		51C73ECB189582D300712D2E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		51D30542189876B900AFC772 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		51D30543189876B900AFC772 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
@@ -243,6 +297,7 @@
 		514E1CF11939F88A002398E8 /* external */ = {
 			isa = PBXGroup;
 			children = (
+				519FC2931940F312008A80E9 /* EDQueue */,
 				5157702B193B4DAA009D8156 /* Observable.h */,
 				5157702C193B4DAA009D8156 /* Observable.m */,
 				514E1CF21939FADD002398E8 /* ImageAndTextCell.h */,
@@ -375,6 +430,82 @@
 			name = Delegates;
 			sourceTree = "<group>";
 		};
+		519FC2931940F312008A80E9 /* EDQueue */ = {
+			isa = PBXGroup;
+			children = (
+				519FC2941940F312008A80E9 /* .gitignore */,
+				519FC2951940F312008A80E9 /* CONTRIBUTING.md */,
+				519FC2961940F312008A80E9 /* EDQueue */,
+				519FC29B1940F312008A80E9 /* EDQueue.podspec */,
+				519FC29C1940F312008A80E9 /* LICENSE.md */,
+				519FC29D1940F312008A80E9 /* Project */,
+				519FC2B81940F313008A80E9 /* README.md */,
+			);
+			path = EDQueue;
+			sourceTree = "<group>";
+		};
+		519FC2961940F312008A80E9 /* EDQueue */ = {
+			isa = PBXGroup;
+			children = (
+				519FC2971940F312008A80E9 /* EDQueue.h */,
+				519FC2981940F312008A80E9 /* EDQueue.m */,
+				519FC2991940F312008A80E9 /* EDQueueStorageEngine.h */,
+				519FC29A1940F312008A80E9 /* EDQueueStorageEngine.m */,
+			);
+			path = EDQueue;
+			sourceTree = "<group>";
+		};
+		519FC29D1940F312008A80E9 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				519FC29E1940F312008A80E9 /* Fmdb */,
+				519FC2A91940F312008A80E9 /* queue */,
+				519FC2B51940F312008A80E9 /* queue.xcodeproj */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		519FC29E1940F312008A80E9 /* Fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				519FC29F1940F312008A80E9 /* FMDatabase.h */,
+				519FC2A01940F312008A80E9 /* FMDatabase.m */,
+				519FC2A11940F312008A80E9 /* FMDatabaseAdditions.h */,
+				519FC2A21940F312008A80E9 /* FMDatabaseAdditions.m */,
+				519FC2A31940F312008A80E9 /* FMDatabasePool.h */,
+				519FC2A41940F312008A80E9 /* FMDatabasePool.m */,
+				519FC2A51940F312008A80E9 /* FMDatabaseQueue.h */,
+				519FC2A61940F312008A80E9 /* FMDatabaseQueue.m */,
+				519FC2A71940F312008A80E9 /* FMResultSet.h */,
+				519FC2A81940F312008A80E9 /* FMResultSet.m */,
+			);
+			path = Fmdb;
+			sourceTree = "<group>";
+		};
+		519FC2A91940F312008A80E9 /* queue */ = {
+			isa = PBXGroup;
+			children = (
+				519FC2AA1940F312008A80E9 /* EDAppDelegate.h */,
+				519FC2AB1940F312008A80E9 /* EDAppDelegate.m */,
+				519FC2AC1940F312008A80E9 /* EDViewController.h */,
+				519FC2AD1940F312008A80E9 /* EDViewController.m */,
+				519FC2AE1940F312008A80E9 /* EDViewController.xib */,
+				519FC2B01940F312008A80E9 /* InfoPlist.strings */,
+				519FC2B21940F312008A80E9 /* main.m */,
+				519FC2B31940F312008A80E9 /* queue-Info.plist */,
+				519FC2B41940F312008A80E9 /* queue-Prefix.pch */,
+			);
+			path = queue;
+			sourceTree = "<group>";
+		};
+		519FC2B61940F312008A80E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				519FC2CD1940F313008A80E9 /* queue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		51D30541189876B900AFC772 /* fmdb */ = {
 			isa = PBXGroup;
 			children = (
@@ -456,6 +587,12 @@
 			mainGroup = 5198070D189556A40030C1DB;
 			productRefGroup = 51980717189556A40030C1DB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 519FC2B61940F312008A80E9 /* Products */;
+					ProjectRef = 519FC2B51940F312008A80E9 /* queue.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				51980715189556A40030C1DB /* owncloudnews */,
@@ -463,6 +600,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		519FC2CD1940F313008A80E9 /* queue.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = queue.app;
+			remoteRef = 519FC2CC1940F313008A80E9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		51980714189556A40030C1DB /* Resources */ = {
@@ -473,13 +620,21 @@
 				519E4A9C193A31D6005CDA40 /* GeneralPreferences.xib in Resources */,
 				51D305571898787500AFC772 /* dbschema.sqlite in Resources */,
 				519E4A9E193A35CB005CDA40 /* PreferencesWindow.xib in Resources */,
+				519FC2B91940F313008A80E9 /* .gitignore in Resources */,
+				519FC2C71940F313008A80E9 /* InfoPlist.strings in Resources */,
 				51980724189556A40030C1DB /* InfoPlist.strings in Resources */,
 				512983AE19374C41008D6852 /* ArticleView.xib in Resources */,
 				51449960193756B400B769C3 /* ItemListTableView.xib in Resources */,
 				514499621937736C00B769C3 /* FeedOutlineView.xib in Resources */,
 				51980732189556A40030C1DB /* Images.xcassets in Resources */,
+				519FC2BE1940F313008A80E9 /* LICENSE.md in Resources */,
+				519FC2BA1940F313008A80E9 /* CONTRIBUTING.md in Resources */,
+				519FC2CA1940F313008A80E9 /* README.md in Resources */,
 				510310301897025800491EE7 /* ArticleTemplate.html in Resources */,
+				519FC2C61940F313008A80E9 /* EDViewController.xib in Resources */,
 				5198072A189556A40030C1DB /* Credits.rtf in Resources */,
+				519FC2C91940F313008A80E9 /* queue-Info.plist in Resources */,
+				519FC2BD1940F313008A80E9 /* EDQueue.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,17 +658,23 @@
 				5198075318956ECF0030C1DB /* OCNNewsItem.m in Sources */,
 				514499661937738600B769C3 /* OCNFeedOutlineViewController.m in Sources */,
 				514E1CF01938EC4B002398E8 /* OCNNewsArticleServiceImpl.m in Sources */,
+				519FC2BC1940F313008A80E9 /* EDQueueStorageEngine.m in Sources */,
+				519FC2C31940F313008A80E9 /* FMResultSet.m in Sources */,
 				519FC28F193FBAF5008A80E9 /* OCNFeedOutlineViewDelegate.m in Sources */,
 				51D3054F189876B900AFC772 /* FMDatabasePool.m in Sources */,
 				512983AB19374BD2008D6852 /* OCNArticleViewController.m in Sources */,
 				5107D6F418A129730074DF7C /* OCNOutlineNode.m in Sources */,
+				519FC2C21940F313008A80E9 /* FMDatabaseQueue.m in Sources */,
 				51D30550189876B900AFC772 /* FMDatabaseQueue.m in Sources */,
+				519FC2C81940F313008A80E9 /* main.m in Sources */,
 				51D30552189876B900AFC772 /* FMResultSet.m in Sources */,
 				5198072D189556A40030C1DB /* OCNAppDelegate.m in Sources */,
 				519E4A9A193A31C3005CDA40 /* OCNGeneralPreferencesViewController.m in Sources */,
 				5144995919374F0D00B769C3 /* OcnViewController.m in Sources */,
+				519FC2BF1940F313008A80E9 /* FMDatabase.m in Sources */,
 				51577030193B5287009D8156 /* NSInvocation+Constructors.m in Sources */,
 				514E1CED1938DEDB002398E8 /* OCNOwncloudSyncService.m in Sources */,
+				519FC2BB1940F313008A80E9 /* EDQueue.m in Sources */,
 				510310351897C94200491EE7 /* OCNNewsAPI12.m in Sources */,
 				5144995D1937565300B769C3 /* OCNItemListTableViewController.m in Sources */,
 				514E1CEA1937EEBF002398E8 /* OCNServiceFactoryImpl.m in Sources */,
@@ -522,11 +683,15 @@
 				51D3054D189876B900AFC772 /* FMDatabase.m in Sources */,
 				510310381897C9E300491EE7 /* OCNFolder.m in Sources */,
 				51D3054E189876B900AFC772 /* FMDatabaseAdditions.m in Sources */,
+				519FC2C41940F313008A80E9 /* EDAppDelegate.m in Sources */,
 				519FC292193FC4CD008A80E9 /* OCNItemListTableViewDelegate.m in Sources */,
 				514E1CF41939FADD002398E8 /* ImageAndTextCell.m in Sources */,
+				519FC2C01940F313008A80E9 /* FMDatabaseAdditions.m in Sources */,
 				519E4AA4193A36D8005CDA40 /* OCNPreferencesWindowController.m in Sources */,
 				51577029193B2FF9009D8156 /* OCNDatabaseService.m in Sources */,
 				512983A51937451E008D6852 /* NSData+Base64.m in Sources */,
+				519FC2C11940F313008A80E9 /* FMDatabasePool.m in Sources */,
+				519FC2C51940F313008A80E9 /* EDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +742,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				51980741189556A50030C1DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		519FC2AE1940F312008A80E9 /* EDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				519FC2AF1940F312008A80E9 /* en */,
+			);
+			name = EDViewController.xib;
+			sourceTree = "<group>";
+		};
+		519FC2B01940F312008A80E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				519FC2B11940F312008A80E9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
